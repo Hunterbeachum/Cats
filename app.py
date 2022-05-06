@@ -17,7 +17,7 @@ def home():
     print('URL: ', r.url)
     cat_data = json.loads(r.text)
     url = cat_data[0]['url']
-    html = f'<img src="{url}" alt="A random cat image">'
+    html = f'<a href="/movie"><img src="{url}" alt="A random cat image"></a>'
     return html
 
 
