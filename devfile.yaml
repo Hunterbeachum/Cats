@@ -16,7 +16,7 @@ components:
     image:
       imageName: python-image:latest
       dockerfile:
-        uri: docker/Dockerfile
+        uri: Dockerfile
         buildContext: .
         rootRequired: false
   - name: outerloop-deploy
